@@ -8,7 +8,7 @@ st.set_page_config(page_title="G-Sheets Debugger", page_icon="🕵️‍♂️")
 st.title("🕵️‍♂️ The Ultimate G-Sheets Snitch")
 st.write("Let's catch the bug in 4K. Enter your target sheet URL below and let's run the diagnostics.")
 
-sheet_url = st.text_input("Paste the full Google Sheet URL here:")
+sheet_url = st.text_input("https://docs.google.com/spreadsheets/d/1lwK7P0Ul32suA1tOJMwrvPwawkMcVXIz5zNECVeUtfQ/edit?usp=sharing")
 
 if st.button("Run Diagnostics 🚀"):
     if not sheet_url:
